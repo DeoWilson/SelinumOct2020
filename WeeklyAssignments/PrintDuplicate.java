@@ -1,4 +1,3 @@
-
 package WeeklyAssignments;
 
 public class PrintDuplicate {
@@ -10,14 +9,14 @@ public class PrintDuplicate {
 		int count= a.length;
 		for(int i=0; i < count; i++)
 		{
-			for (int j = 0; j < b.length; j++) {
+			for (int j=0; j < b.length; j++) {
 				
 				if(a[i] == b[j])
 				{
 					t++;
 				}			
 				
-				if (t>1) {
+				if (t>3) {
 					 t=0;
 					 System.out.println(a[i]); 
 						
@@ -29,3 +28,8 @@ public class PrintDuplicate {
 	}
 
 }
+
+
+
+
+
