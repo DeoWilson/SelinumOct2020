@@ -10,21 +10,20 @@ public class PrintDuplicate {
 		int count= a.length;
 		for(int i=0; i < count; i++)
 		{
-			
-			for (int j = 0; j < count; j++) {
+			for (int j = 0; j < b.length; j++) {
 				
 				if(a[i] == b[j])
 				{
-					t=t+1;
-				}
+					t++;
+				}			
 				
 				if (t>1) {
-				t=0;
-				System.out.println(a[i]);
-					
-				}
+					 t=0;
+					 System.out.println(a[i]); 
 						
+					}			
 			}
+			
 			
 	}
 	}
